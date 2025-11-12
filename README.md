@@ -1,6 +1,6 @@
 # 👋 Hey there, I’m M1tsumi
 
-### 🧭 Developer | Creator of [SwiftDisc](https://github.com/M1tsumi/SwiftDisc) | Building Open Tools for Discord
+### 🧭 Developer | Creator of [SwiftDisc](https://github.com/M1tsumi/SwiftDisc) | Building Open Source Tools for Discord
 
 ---
 
