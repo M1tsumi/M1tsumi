@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#ffffff; font-family: 'SF Mono', Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 36px;">
+  <style>
+    .text { fill: #1A1A1A; }
+    .cursor { fill: #FA7343; animation: blink 1s step-end infinite; }
+    .swift-orange { fill: #FA7343; }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    .typing {
+      animation: typing 3.5s steps(10) forwards, caret 1s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #FA7343; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" rx="12"/>
+
+  <!-- Typing Text Container -->
+  <text x="25" y="62" class="text">
+    <tspan class="swift-orange">$ </tspan>
+    <tspan class="typing" style="display: inline-block; overflow: hidden; white-space: nowrap; border-right: 3px solid #FA7343; width: 0;">
+      SwiftDisc
+    </tspan>
+    <tspan class="cursor">|</tspan>
+  </text>
+
+  <!-- Optional: Subtle Swift Logo Accent -->
+  <path d="M 460 25 L 480 45 L 460 65 L 440 45 Z" fill="#FA7343" opacity="0.3"/>
+</svg>
