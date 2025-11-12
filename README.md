@@ -120,7 +120,7 @@ enum CurrentGoals {
   
   ---
   
-  **"Building bridges between Swift and Discord, one adorable commit at a time"** 💕
+  **"Building bridges between Swift and Discord, one commit at a time"** 💕
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,23&height=120&section=footer&animation=fadeIn" width="100%"/>
   
