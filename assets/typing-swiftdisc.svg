@@ -1,38 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#ffffff; font-family: 'SF Mono', Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 36px;">
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #FFF0F8 0%, #FFE4F0 100%); font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;">
+  <defs>
+    <!-- Gradient for text -->
+    <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB6E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF85C1;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Sparkle filter -->
+    <filter id="sparkle">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+      <feComponentTransfer in="blur">
+        <feFuncA type="discrete" tableValues="0 1 1 1 1" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  
   <style>
-    .text { fill: #1A1A1A; }
-    .cursor { fill: #FA7343; animation: blink 1s step-end infinite; }
-    .swift-orange { fill: #FA7343; }
+    .prompt { fill: url(#pinkGradient); font-weight: bold; font-size: 32px; }
+    .typed-text { 
+      fill: #FF69B4; 
+      font-size: 32px; 
+      font-weight: 600;
+    }
+    .cursor { 
+      fill: #FFB6E1; 
+      animation: blink 0.8s ease-in-out infinite;
+    }
+    .subtitle {
+      fill: #FF85C1;
+      font-size: 14px;
+      opacity: 0;
+      animation: fadeIn 1s ease-in forwards 3s;
+    }
+    
     @keyframes blink {
-      0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0; }
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
     }
-    .typing {
-      animation: typing 3.5s steps(10) forwards, caret 1s step-end infinite;
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 0.8; transform: translateY(0); }
     }
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
+    
+    /* Typing animation */
+    .char {
+      opacity: 0;
+      animation: typeChar 0.1s forwards;
     }
-    @keyframes caret {
-      from, to { border-color: transparent; }
-      50% { border-color: #FA7343; }
+    .char1 { animation-delay: 0.3s; }
+    .char2 { animation-delay: 0.4s; }
+    .char3 { animation-delay: 0.5s; }
+    .char4 { animation-delay: 0.6s; }
+    .char5 { animation-delay: 0.7s; }
+    .char6 { animation-delay: 0.8s; }
+    .char7 { animation-delay: 0.9s; }
+    .char8 { animation-delay: 1.0s; }
+    .char9 { animation-delay: 1.1s; }
+    
+    @keyframes typeChar {
+      to { opacity: 1; }
+    }
+    
+    /* Sparkles */
+    .sparkle {
+      opacity: 0;
+      animation: sparkleAnim 2s ease-in-out infinite;
+    }
+    .sparkle1 { animation-delay: 0s; }
+    .sparkle2 { animation-delay: 0.7s; }
+    .sparkle3 { animation-delay: 1.4s; }
+    
+    @keyframes sparkleAnim {
+      0%, 100% { opacity: 0; transform: scale(0); }
+      50% { opacity: 1; transform: scale(1); }
+    }
+    
+    /* Hearts */
+    .heart {
+      opacity: 0;
+      animation: heartBeat 3s ease-in-out infinite;
+    }
+    .heart1 { animation-delay: 0.5s; }
+    .heart2 { animation-delay: 1.5s; }
+    
+    @keyframes heartBeat {
+      0%, 100% { opacity: 0; transform: scale(0.8); }
+      10%, 30% { opacity: 1; transform: scale(1); }
+      20% { transform: scale(1.1); }
+      40%, 95% { opacity: 0; transform: scale(0.8); }
     }
   </style>
-
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#ffffff" rx="12"/>
-
-  <!-- Typing Text Container -->
-  <text x="25" y="62" class="text">
-    <tspan class="swift-orange">$ </tspan>
-    <tspan class="typing" style="display: inline-block; overflow: hidden; white-space: nowrap; border-right: 3px solid #FA7343; width: 0;">
-      SwiftDisc
+  
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="3" fill="#FFB6E1" opacity="0.6"/>
+  <circle cx="570" cy="30" r="3" fill="#FF85C1" opacity="0.6"/>
+  <circle cx="30" cy="90" r="3" fill="#FF85C1" opacity="0.6"/>
+  <circle cx="570" cy="90" r="3" fill="#FFB6E1" opacity="0.6"/>
+  
+  <!-- Sparkles -->
+  <g class="sparkle sparkle1" transform="translate(150, 25)">
+    <path d="M 0,-8 L 1,-1 L 8,0 L 1,1 L 0,8 L -1,1 L -8,0 L -1,-1 Z" fill="#FFB6E1" filter="url(#sparkle)"/>
+  </g>
+  <g class="sparkle sparkle2" transform="translate(450, 35)">
+    <path d="M 0,-6 L 0.8,-0.8 L 6,0 L 0.8,0.8 L 0,6 L -0.8,0.8 L -6,0 L -0.8,-0.8 Z" fill="#FF69B4" filter="url(#sparkle)"/>
+  </g>
+  <g class="sparkle sparkle3" transform="translate(520, 85)">
+    <path d="M 0,-7 L 0.9,-0.9 L 7,0 L 0.9,0.9 L 0,7 L -0.9,0.9 L -7,0 L -0.9,-0.9 Z" fill="#FF85C1" filter="url(#sparkle)"/>
+  </g>
+  
+  <!-- Hearts -->
+  <g class="heart heart1" transform="translate(100, 88)">
+    <path d="M 0,-3 C -1.5,-5 -4,-5 -5,-3 C -6,-1 -5,1 0,4 C 5,1 6,-1 5,-3 C 4,-5 1.5,-5 0,-3 Z" fill="#FFB6E1" opacity="0.8"/>
+  </g>
+  <g class="heart heart2" transform="translate(500, 88)">
+    <path d="M 0,-2.5 C -1.2,-4 -3.5,-4 -4.2,-2.5 C -5,-0.8 -4.2,0.8 0,3.5 C 4.2,0.8 5,-0.8 4.2,-2.5 C 3.5,-4 1.2,-4 0,-2.5 Z" fill="#FF85C1" opacity="0.8"/>
+  </g>
+  
+  <!-- Main terminal-style text -->
+  <text x="60" y="65">
+    <tspan class="prompt">❯ </tspan>
+    <tspan class="typed-text">
+      <tspan class="char char1">S</tspan><tspan class="char char2">w</tspan><tspan class="char char3">i</tspan><tspan class="char char4">f</tspan><tspan class="char char5">t</tspan><tspan class="char char6">D</tspan><tspan class="char char7">i</tspan><tspan class="char char8">s</tspan><tspan class="char char9">c</tspan>
     </tspan>
-    <tspan class="cursor">|</tspan>
+    <tspan class="cursor" dx="5">▊</tspan>
   </text>
-
-  <!-- Optional: Subtle Swift Logo Accent -->
-  <path d="M 460 25 L 480 45 L 460 65 L 440 45 Z" fill="#FA7343" opacity="0.3"/>
+  
+  <!-- Subtitle -->
+  <text x="60" y="90" class="subtitle">✨ Native Swift Discord API Wrapper 💖</text>
 </svg>
