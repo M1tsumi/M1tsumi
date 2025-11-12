@@ -14,6 +14,18 @@ My focus is on **open-source, performance, and developer experience** — bringi
 - ☕ Runs on caffeine and compile times
 
 ---
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="./assets/stats.svg" width="360" alt="GitHub Stats">
+  <img src="./assets/languages.svg" width="360" alt="Languages Used">
+</p>
+
+<p align="center">
+  <em>Animated statistics and language distribution for my repositories.</em>
+</p>
 
 ### 🚀 Featured Project
 #### [SwiftDisc — Swift Native Discord API Library](https://github.com/M1tsumi/SwiftDisc)
