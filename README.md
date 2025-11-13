@@ -68,7 +68,7 @@ Task {
 - **📱 Cross-platform** — Works seamlessly across Apple platforms
 - **💕 Community Driven** — Open to contributions and feedback!
 
----
+--- 
 
 <div align="center">
 
