@@ -1,144 +1,140 @@
-# ✨ Hey there, I'm M1tsumi 💖
+# Hey there, I'm M1tsumi 👋
 
 <div align="center">
-  
-  ```swift
-  let developer = Developer(
-      username: "M1tsumi",
-      discord: "quefep",
-      passion: .swiftDevelopment,
-      vibe: .cutesy,
-      currentProject: "SwiftDisc"
-  )
-  ```
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,23&height=120&section=header&text=Welcome!&fontSize=50&fontColor=FFB6E1&animation=fadeIn" width="100%"/>
-  
+
+[![Discord](https://img.shields.io/badge/Discord-quefep-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
+[![Discord Server](https://img.shields.io/badge/Join_My_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
+[![GitHub followers](https://img.shields.io/github/followers/M1tsumi?style=for-the-badge&logo=github)](https://github.com/M1tsumi)
+
 </div>
 
-## 🌸 About Me
+## About Me
 
-Swift enthusiast with a love for creating elegant developer tools! Currently crafting **SwiftDisc** — a native Swift Discord API wrapper that brings the power of Discord's API to the Swift ecosystem with grace and performance. ✨
+Swift and Objective-C developer specializing in Discord API integration and developer tooling. I'm passionate about creating elegant, native solutions for Discord bot developers across Apple platforms and beyond.
 
 ```swift
-// Making Discord integration feel native to Swift 💕
-Task {
-    let client = DiscordClient(token: token)
-    try await client.connect()
-    // Magic happens here! ✨
-}
+let developer = Developer(
+    username: "M1tsumi",
+    discord: "quefep",
+    specialization: ["Swift", "Objective-C", "Discord APIs"],
+    currentProjects: ["SwiftDisc", "Caelum"]
+)
 ```
 
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### SwiftDisc
+**A modern Discord API wrapper for Swift**
+
+```swift
+let client = DiscordClient(token: token)
+try await client.connect()
+```
+
+**Features:**
+- ⚡ Native async/await support
+- 🎯 Type-safe API interactions
+- 🔄 Real-time gateway events
+- 📦 Swift Package Manager ready
+- 🍎 Cross-platform (macOS, iOS, Linux)
+- 🛠️ Discord API v10 coverage
+
+**[View Repository →](#)**
+
+</td>
+<td width="50%" valign="top">
+
+### Caelum
+**Robust Discord API wrapper for Objective-C**
+
+```objc
+DiscordClient *client = [[DiscordClient alloc] 
+    initWithToken:token];
+[client connect];
+```
+
+**Features:**
+- 🔧 Full Discord API compatibility
+- 💼 Memory-safe implementation
+- 🔗 Swift interoperability
+- 📚 Comprehensive documentation
+- 📦 CocoaPods & SPM support
+- 🏗️ Production-ready
+
+**[View Repository →](#)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💻 Tech Stack & Tools
+
 <div align="center">
 
-### 💻 Tech Stack
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=apple&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-![Swift](https://img.shields.io/badge/Swift-FF69B4?style=for-the-badge&logo=swift&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-FFC0CB?style=for-the-badge&logo=rust&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-FFB6E1?style=for-the-badge&logo=csharp&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-FF85C1?style=for-the-badge&logo=php&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord_API-FF69B4?style=for-the-badge&logo=discord&logoColor=white)
-![Git](https://img.shields.io/badge/Git-FFC0CB?style=for-the-badge&logo=git&logoColor=black)
-
-</div>
-
-## 🌟 Featured Project: SwiftDisc
-
-<div align="center">
-  
-  **✨ A modern, native Swift library for Discord API integration ✨**
-  
-  ```
-  ╔═══════════════════════════════════╗
-  ║  🎯 Type-safe API interactions    ║
-  ║  ⚡ Async/await powered            ║
-  ║  🔄 Real-time gateway support     ║
-  ║  📦 Swift Package Manager ready   ║
-  ║  💖 Made with love                ║
-  ╚═══════════════════════════════════╝
-  ```
-  
-</div>
-
-### Why SwiftDisc? 🎀
-
-- **🏗️ Native Swift Architecture** — Built from the ground up with Swift's modern concurrency model
-- **🎨 Developer Experience** — Intuitive API design that feels natural to Swift developers
-- **⚙️ Comprehensive** — Full Discord API coverage with regular updates
-- **📱 Cross-platform** — Works seamlessly across Apple platforms
-- **💕 Community Driven** — Open to contributions and feedback!
-
---- 
-
-<div align="center">
-
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=buefy&hide_border=true&bg_color=FFF0F8&title_color=FF69B4&icon_color=FFB6E1&text_color=FF69B4" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=buefy&hide_border=true&bg_color=FFF0F8&title_color=FF69B4&text_color=FF69B4" height="165"/>
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=M1tsumi&theme=buefy&hide_border=true&background=FFF0F8&ring=FF69B4&fire=FFB6E1&currStreakLabel=FF69B4)
+![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
 ---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=M1tsumi&theme=tokyonight&hide_border=true)
+
+</div>
+
 ---
-
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img src="./assets/stats.svg" width="360" alt="GitHub Stats">
-  <img src="./assets/languages.svg" width="360" alt="Languages Used">
-</p>
-
-<p align="center">
-  <em>Animated statistics and language distribution for my repositories.</em>
-</p>
 
 ## 🎯 Current Focus
 
-```swift
-enum CurrentGoals {
-    case expandingSwiftDisc      // Adding more Discord API features ✨
-    case communityBuilding       // Growing the SwiftDisc ecosystem 💖
-    case documentation           // Making it easier for others to contribute 📚
-    case optimization            // Performance improvements & best practices ⚡
-    case havingFun              // Because coding should be enjoyable! 🎀
-}
-```
+- 🔨 Expanding Discord API feature coverage in SwiftDisc and Caelum
+- 📖 Improving documentation and developer experience
+- 🌐 Building community engagement around both projects
+- ⚡ Performance optimization and best practices
+- 🔄 Maintaining compatibility with Discord API updates
 
-## 💌 Let's Connect
+---
+
+## 🤝 Let's Connect
 
 <div align="center">
-  
-[![Discord Server](https://img.shields.io/badge/Discord_Server-Join_Us!-FF69B4?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
-[![Discord User](https://img.shields.io/badge/Discord-quefep-FFB6E1?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
-[![GitHub](https://img.shields.io/badge/GitHub-M1tsumi-FFC0CB?style=for-the-badge&logo=github&logoColor=black)](https://github.com/M1tsumi)
 
-**💕 Come say hi in my Discord server! 💕**
+**Open to collaboration, feedback, and contributions!**
+
+Feel free to open issues, submit pull requests, or reach out via Discord.
+
+[![Join Discord Server](https://invidget.switchblade.xyz/r4rCAXvb8d)](https://discord.gg/r4rCAXvb8d)
 
 </div>
 
 ---
 
 <div align="center">
-  
-  ### ✨ Fun Facts About Me ✨
-  
-  🎀 I love making things cute AND functional  
-  💖 SwiftDisc is my baby project  
-  🌸 Always learning new languages (currently loving Rust!)  
-  ✨ Believer in clean code and good vibes  
-  
-  ---
-  
-  **"Building bridges between Swift and Discord, one commit at a time"** 💕
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,23&height=120&section=footer&animation=fadeIn" width="100%"/>
-  
-</div>
 
-<!--
-### 🌸 Profile Views Counter
-![](https://komarev.com/ghpvc/?username=M1tsumi&color=FF69B4&style=flat-square&label=Profile+Views+💕)
--->
+**Building native Discord integration for Swift and Objective-C developers**
+
+![Profile Views](https://komarev.com/ghpvc/?username=M1tsumi&color=5865F2&style=flat-square&label=Profile+Views)
+
+</div>
