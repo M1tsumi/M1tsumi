@@ -45,7 +45,7 @@ try await client.connect()
 - 🍎 Cross-platform (macOS, iOS, Linux)
 - 🛠️ Discord API v10 coverage
 
-**[View Repository →](#)**
+**[View Repository →](https://github.com/M1tsumi/SwiftDisc)**
 
 </td>
 <td width="50%" valign="top">
@@ -67,7 +67,7 @@ DiscordClient *client = [[DiscordClient alloc]
 - 📦 CocoaPods & SPM support
 - 🏗️ Production-ready
 
-**[View Repository →](#)**
+**[View Repository →](https://github.com/M1tsumi/Caelum#)**
 
 </td>
 </tr>
