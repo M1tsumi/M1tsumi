@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-quefep-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
-[![Discord Server](https://img.shields.io/badge/Join_My_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/r4rCAXvb8d)
+[![Discord](https://img.shields.io/badge/Discord-quefep-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
+[![Discord Server](https://img.shields.io/badge/Join_My_Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
 [![GitHub followers](https://img.shields.io/github/followers/M1tsumi?style=for-the-badge&logo=github)](https://github.com/M1tsumi)
 
 </div>
@@ -125,7 +125,7 @@ DiscordClient *client = [[DiscordClient alloc]
 
 Feel free to open issues, submit pull requests, or reach out via Discord.
 
-[![Join Discord Server](https://invidget.switchblade.xyz/r4rCAXvb8d)](https://discord.gg/r4rCAXvb8d)
+[![Join Discord Server](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
 
 </div>
 
