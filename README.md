@@ -17,7 +17,7 @@ let developer = Developer(
     username: "M1tsumi",
     discord: "quefep",
     specialization: ["Swift", "Objective-C", "Discord APIs"],
-    currentProjects: ["SwiftDisc", "Caelum"]
+    currentProjects: ["SwiftDisc", "Caelum", "QuefBot"]
 )
 ```
 
