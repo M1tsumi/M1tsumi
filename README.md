@@ -11,7 +11,6 @@
 ## About Me
 
 Swift and Objective-C developer specializing in Discord API integration and developer tooling. I'm passionate about creating elegant, native solutions for Discord bot developers across Apple platforms and beyond.
-
 ```swift
 let developer = Developer(
     username: "M1tsumi",
@@ -31,7 +30,6 @@ let developer = Developer(
 
 ### SwiftDisc
 **A modern Discord API wrapper for Swift**
-
 ```swift
 let client = DiscordClient(token: token)
 try await client.connect()
@@ -52,7 +50,6 @@ try await client.connect()
 
 ### Caelum
 **Robust Discord API wrapper for Objective-C**
-
 ```objc
 DiscordClient *client = [[DiscordClient alloc] 
     initWithToken:token];
@@ -67,7 +64,25 @@ DiscordClient *client = [[DiscordClient alloc]
 - 📦 CocoaPods & SPM support
 - 🏗️ Production-ready
 
-**[View Repository →](https://github.com/M1tsumi/Caelum#)**
+**[View Repository →](https://github.com/M1tsumi/Caelum)**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### QuefBot
+**Feature-rich Discord bot showcasing SwiftDisc & Caelum capabilities**
+
+**Features:**
+- 🤖 Built with SwiftDisc/Caelum
+- 🎮 Interactive commands and slash commands
+- 🔔 Advanced event handling
+- 📊 Server management utilities
+- ⚙️ Modular architecture
+- 🚀 Production deployment ready
+
+**[View Repository →](https://github.com/M1tsumi/QuefBot)**
 
 </td>
 </tr>
@@ -110,8 +125,9 @@ DiscordClient *client = [[DiscordClient alloc]
 ## 🎯 Current Focus
 
 - 🔨 Expanding Discord API feature coverage in SwiftDisc and Caelum
+- 🤖 Developing QuefBot as a reference implementation and production bot
 - 📖 Improving documentation and developer experience
-- 🌐 Building community engagement around both projects
+- 🌐 Building community engagement around all projects
 - ⚡ Performance optimization and best practices
 - 🔄 Maintaining compatibility with Discord API updates
 
