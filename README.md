@@ -10,7 +10,7 @@
 
 ## About Me
 
-Swift and Objective-C developer specializing in Discord API integration and developer tooling. I'm passionate about creating elegant, native solutions for Discord bot developers across Apple platforms and beyond.
+Swift and Objective-C centered developer, prioritizing the Discord Environment (API & Gateway) as well as Developer tooling!
 ```swift
 let developer = Developer(
     username: "M1tsumi",
