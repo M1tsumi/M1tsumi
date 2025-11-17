@@ -123,13 +123,7 @@ DiscordClient *client = [[DiscordClient alloc]
 ---
 
 ## 🎯 Current Focus
-
-- 🔨 Expanding Discord API feature coverage in SwiftDisc and Caelum
-- 🤖 Developing QuefBot as a reference implementation and production bot
-- 📖 Improving documentation and developer experience
-- 🌐 Building community engagement around all projects
-- ⚡ Performance optimization and best practices
-- 🔄 Maintaining compatibility with Discord API updates
+Maintining the Caelum and SwiftDisc API Wrappers.
 
 ---
 
