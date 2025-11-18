@@ -67,12 +67,12 @@ DiscordClient *client = [[DiscordClient alloc]
 <tr>
 <td width="50%" valign="top">
 
-### Bumper
+### Arena-B
 High-performance memory pool allocator for Rust.
 
 ```rust
 let arena = Arena::new();
-let data = arena.alloc(value); (This is not final, Bumper is not a finished project)
+let data = arena.alloc(value); (This is not final, Arena-b is not a finished project)
 ```
 
 - 10-100x faster than standard allocation
