@@ -4,50 +4,55 @@
 
 [![Discord](https://img.shields.io/badge/Discord-quefep-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
 [![GitHub followers](https://img.shields.io/github/followers/M1tsumi?style=for-the-badge&logo=github)](https://github.com/M1tsumi)
+[![Website](https://img.shields.io/badge/Docs-quefep.uk-blue?style=for-the-badge)](https://quefep.uk)
 
 </div>
 
 ## About Me
 
-Swift developer working on Discord API libraries and developer tooling. I build things that make APIs easier to work with.
+Swift and Objective-C developer specializing in Discord API integration and developer tooling. I'm passionate about creating elegant, native solutions for Discord bot developers across Apple platforms and beyond.
 
 ```swift
-let dev = Developer(
+let developer = Developer(
     username: "M1tsumi",
     discord: "quefep",
-    languages: ["Swift", "Rust", "Objective-C", "C#", "PHP"],
-    focus: ["Discord APIs", "Performance", "Developer Experience"]
+    specialization: ["Swift", "Objective-C", "Discord APIs"],
+    currentProjects: ["SwiftDisc", "Caelum"]
 )
 ```
 
 ---
 
-## Projects I'm Working On
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### SwiftDisc
-Modern Discord API wrapper for Swift with native async/await.
+### 🚀 SwiftDisc
+Modern Discord API wrapper for Swift with native async/await — now at v1.0.0!
 
 ```swift
 let client = DiscordClient(token: token)
 try await client.connect()
 ```
 
-- Type-safe API interactions
-- Real-time gateway events
-- Discord API v10 support
-- Works on macOS, iOS, and Linux
+**Features:**
+- ✅ Discord API v10 support
+- ⚡ Native async/await & structured concurrency
+- 🎯 Type-safe API with compile-time safety
+- 🌍 Cross-platform (iOS, macOS, tvOS, watchOS, Windows)
+- 🔒 Automatic rate limiting & connection resilience
+- 📦 Zero dependencies, pure Swift
+- 🎨 Developer-friendly APIs
 
-**[→ Repository](https://github.com/M1tsumi/SwiftDisc)**
+**[→ View Repository](https://github.com/M1tsumi/SwiftDisc)** | **[📚 Documentation](https://quefep.uk)**
 
 </td>
 <td width="50%" valign="top">
 
-### Caelum
-Full-featured Discord API wrapper for Objective-C with Swift interop.
+### 🌙 Caelum
+Full-featured Discord API wrapper for Objective-C with Swift interoperability.
 
 ```objc
 DiscordClient *client = [[DiscordClient alloc] 
@@ -55,45 +60,14 @@ DiscordClient *client = [[DiscordClient alloc]
 [client connect];
 ```
 
-- Complete Discord API coverage
-- Memory-safe implementation
-- CocoaPods & SPM support
-- Production-ready
+**Features:**
+- 📡 Complete Discord API coverage
+- 🔗 Seamless Swift interop
+- 🛡️ Memory-safe implementation
+- 📦 CocoaPods & SPM support
+- ⚙️ Production-ready & battle-tested
 
-**[→ Repository](https://github.com/M1tsumi/Caelum)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Arena-B
-High-performance memory pool allocator for Rust.
-
-```rust
-let arena = Arena::new();
-let data = arena.alloc(value); (This is not final, Arena-b is not a finished project)
-```
-
-- 10-100x faster than standard allocation
-- Type-safe arena allocators
-- Zero unsafe in public API
-- Built for allocation-heavy workloads
-
-**[→ Repository](https://github.com/M1tsumi/bumper)**
-
-</td>
-<td width="50%" valign="top">
-
-### QuefBot
-Discord bot showcasing SwiftDisc and Caelum in action.
-
-- Interactive slash commands
-- Advanced event handling
-- Server management tools
-- Modular architecture
-
-**[→ Repository](https://github.com/M1tsumi/QuefBot)**
+**[→ View Repository](https://github.com/M1tsumi/Caelum)**
 
 </td>
 </tr>
@@ -101,15 +75,12 @@ Discord bot showcasing SwiftDisc and Caelum in action.
 
 ---
 
-## Stack
+## Tech Stack
 
 <div align="center">
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=apple&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -117,6 +88,16 @@ Discord bot showcasing SwiftDisc and Caelum in action.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
+
+---
+
+## Current Focus
+
+- 🔨 Expanding Discord API feature coverage in SwiftDisc and Caelum
+- 📖 Improving documentation and developer experience
+- 🌐 Building community engagement around both projects
+- ⚡ Performance optimization and best practices
+- 🔄 Maintaining compatibility with Discord API updates
 
 ---
 
@@ -133,11 +114,13 @@ Discord bot showcasing SwiftDisc and Caelum in action.
 
 ---
 
-## Currently
+## Get Involved
 
-Maintaining SwiftDisc and Caelum. Building Bumper for better memory management in Rust.
-
-Open to contributions and feedback on any of my projects.
+Open to collaboration, feedback, and contributions! Feel free to:
+- ⭐ Star my projects if you find them useful
+- 🐛 Report bugs or request features via issues
+- 🔧 Submit pull requests
+- 💬 Join the community on Discord
 
 ---
 
