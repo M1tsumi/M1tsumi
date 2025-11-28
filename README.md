@@ -10,14 +10,14 @@
 
 ## About Me
 
-Swift and Objective-C developer specializing in Discord API integration and developer tooling. I'm passionate about creating elegant, native solutions for Discord bot developers across Apple platforms and beyond.
+Swift, Objective-C, and Zig developer specializing in Discord API integration and high-performance developer tooling. I build elegant, native solutions for Discord bot developers across Apple platforms and systems programming.
 
 ```swift
 let developer = Developer(
     username: "M1tsumi",
     discord: "quefep",
-    specialization: ["Swift", "Objective-C", "Discord APIs"],
-    currentProjects: ["SwiftDisc", "Caelum"]
+    specialization: ["Swift", "Objective-C", "Zig", "Discord APIs"],
+    currentProjects: ["SwiftDisc", "Caelum", "Zignal"]
 )
 ```
 
@@ -27,10 +27,11 @@ let developer = Developer(
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🚀 SwiftDisc
-Modern Discord API wrapper for Swift with native async/await — now at v1.0.0!
+
+Modern Discord API wrapper for Swift with native async/await — v1.0.0
 
 ```swift
 let client = DiscordClient(token: token)
@@ -38,20 +39,44 @@ try await client.connect()
 ```
 
 **Features:**
-- ✅ Discord API v10 support
-- ⚡ Native async/await & structured concurrency
-- 🎯 Type-safe API with compile-time safety
-- 🌍 Cross-platform (iOS, macOS, tvOS, watchOS, Windows)
-- 🔒 Automatic rate limiting & connection resilience
-- 📦 Zero dependencies, pure Swift
-- 🎨 Developer-friendly APIs
+- Discord API v10 support
+- Native async/await & structured concurrency
+- Type-safe API with compile-time safety
+- Cross-platform (iOS, macOS, tvOS, watchOS, Windows)
+- Automatic rate limiting & connection resilience
+- Zero dependencies, pure Swift
 
-**[→ View Repository](https://github.com/M1tsumi/SwiftDisc)** | **[📚 Documentation](https://quefep.uk)**
+**[→ Repository](https://github.com/M1tsumi/SwiftDisc)** | **[📚 Docs](https://quefep.uk)**
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
+
+### ⚡ Zignal
+
+High-performance Discord API wrapper for Zig with zero dependencies.
+
+```zig
+var client = try zignal.Client.init(allocator, .{
+    .token = "YOUR_TOKEN",
+});
+try client.connect();
+```
+
+**Features:**
+- Complete Discord API v10 (175 endpoints)
+- Full gateway support (56 events)
+- Voice channels with audio streaming
+- 20x faster startup than Python alternatives
+- 4x lower memory usage
+- Production-ready with comprehensive testing
+
+**[→ Repository](https://github.com/M1tsumi/Zignal)** | **[📚 Docs](https://docs.zignal.dev)** | **[💬 Discord](https://discord.gg/6nS2KqxQtj)**
+
+</td>
+<td width="33%" valign="top">
 
 ### 🌙 Caelum
+
 Full-featured Discord API wrapper for Objective-C with Swift interoperability.
 
 ```objc
@@ -61,13 +86,13 @@ DiscordClient *client = [[DiscordClient alloc]
 ```
 
 **Features:**
-- 📡 Complete Discord API coverage
-- 🔗 Seamless Swift interop
-- 🛡️ Memory-safe implementation
-- 📦 CocoaPods & SPM support
-- ⚙️ Production-ready & battle-tested
+- Complete Discord API coverage
+- Seamless Swift interop
+- Memory-safe implementation
+- CocoaPods & SPM support
+- Production-ready & battle-tested
 
-**[→ View Repository](https://github.com/M1tsumi/Caelum)**
+**[→ Repository](https://github.com/M1tsumi/Caelum)**
 
 </td>
 </tr>
@@ -81,7 +106,7 @@ DiscordClient *client = [[DiscordClient alloc]
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=apple&logoColor=white)
-
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
 ![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
@@ -93,11 +118,12 @@ DiscordClient *client = [[DiscordClient alloc]
 
 ## Current Focus
 
-- 🔨 Expanding Discord API feature coverage in SwiftDisc and Caelum
-- 📖 Improving documentation and developer experience
-- 🌐 Building community engagement around both projects
-- ⚡ Performance optimization and best practices
-- 🔄 Maintaining compatibility with Discord API updates
+- Building and maintaining high-performance Discord API wrappers across multiple languages
+- Expanding feature coverage and API compatibility
+- Improving documentation and developer experience
+- Growing communities around SwiftDisc, Zignal, and Caelum
+- Performance optimization and systems programming best practices
+- Keeping pace with Discord API updates and new features
 
 ---
 
@@ -116,8 +142,9 @@ DiscordClient *client = [[DiscordClient alloc]
 
 ## Get Involved
 
-Open to collaboration, feedback, and contributions! Feel free to:
-- ⭐ Star my projects if you find them useful
+Open to collaboration, feedback, and contributions on any of my projects:
+
+- ⭐ Star projects you find useful
 - 🐛 Report bugs or request features via issues
 - 🔧 Submit pull requests
 - 💬 Join the community on Discord
