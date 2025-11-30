@@ -1,4 +1,4 @@
-# Hey, I'm M1tsumi 👋
+# Hey, I'm M1tsumi
 
 <div align="center">
 
@@ -10,89 +10,124 @@
 
 ## About Me
 
-Swift, Objective-C, and Zig developer specializing in Discord API integration and high-performance developer tooling. I build elegant, native solutions for Discord bot developers across Apple platforms and systems programming.
+Systems programmer specializing in high-performance developer tooling across Swift, Objective-C, Zig, and Rust. I build production-ready libraries focused on type safety, performance, and good developer experience.
 
 ```swift
 let developer = Developer(
     username: "M1tsumi",
     discord: "quefep",
-    specialization: ["Swift", "Objective-C", "Zig", "Discord APIs"],
-    currentProjects: ["SwiftDisc", "Caelum", "Zignal"]
+    languages: ["Swift", "Objective-C", "Zig", "Rust"],
+    focus: ["Discord APIs", "Concurrency", "Systems Programming"]
 )
 ```
 
 ---
 
-## Featured Projects
+## Projects
+
+### Discord API Wrappers
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🚀 SwiftDisc
-
-Modern Discord API wrapper for Swift with native async/await — v1.0.0
+#### SwiftDisc
+Modern Discord API wrapper for Swift
 
 ```swift
 let client = DiscordClient(token: token)
 try await client.connect()
 ```
 
-**Features:**
 - Discord API v10 support
-- Native async/await & structured concurrency
-- Type-safe API with compile-time safety
+- Native async/await
+- Type-safe API
 - Cross-platform (iOS, macOS, tvOS, watchOS, Windows)
-- Automatic rate limiting & connection resilience
-- Zero dependencies, pure Swift
+- Automatic rate limiting
+- Zero dependencies
 
-**[→ Repository](https://github.com/M1tsumi/SwiftDisc)** | **[📚 Docs](https://quefep.uk)**
-
-</td>
-<td width="33%" valign="top">
-
-### ⚡ Zignal
-
-High-performance Discord API wrapper for Zig with zero dependencies.
-
-```zig
-var client = try zignal.Client.init(allocator, .{
-    .token = "YOUR_TOKEN",
-});
-try client.connect();
-```
-
-**Features:**
-- Complete Discord API v10 (175 endpoints)
-- Full gateway support (56 events)
-- Voice channels with audio streaming
-- 20x faster startup than Python alternatives
-- 4x lower memory usage
-- Production-ready with comprehensive testing
-
-**[→ Repository](https://github.com/M1tsumi/Zignal)** | **[📚 Docs](https://docs.zignal.dev)** | **[💬 Discord](https://discord.gg/6nS2KqxQtj)**
+[Repository](https://github.com/M1tsumi/SwiftDisc) | [Documentation](https://quefep.uk)
 
 </td>
 <td width="33%" valign="top">
 
-### 🌙 Caelum
-
-Full-featured Discord API wrapper for Objective-C with Swift interoperability.
+#### Caelum
+Discord API wrapper for Objective-C
 
 ```objc
-DiscordClient *client = [[DiscordClient alloc] 
-    initWithToken:token];
+DiscordClient *client = 
+    [[DiscordClient alloc] initWithToken:token];
 [client connect];
 ```
 
-**Features:**
 - Complete Discord API coverage
-- Seamless Swift interop
+- Swift interoperability
 - Memory-safe implementation
 - CocoaPods & SPM support
-- Production-ready & battle-tested
+- Battle-tested in production
 
-**[→ Repository](https://github.com/M1tsumi/Caelum)**
+[Repository](https://github.com/M1tsumi/Caelum)
+
+</td>
+<td width="33%" valign="top">
+
+#### Zignal
+High-performance Discord API for Zig
+
+```zig
+var client = try zignal.Client.init(
+    allocator, .{ .token = token }
+);
+try client.connect();
+```
+
+- Discord API v10 (175 endpoints)
+- Gateway support (56 events)
+- Voice channels with audio
+- 20x faster startup than Python
+- 4x lower memory usage
+- Zero dependencies
+
+[Repository](https://github.com/M1tsumi/Zignal) | [Documentation](https://docs.zignal.dev)
+
+</td>
+</tr>
+</table>
+
+### Systems Programming
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### VelocityX
+Lock-free concurrent data structures for Rust
+
+```rust
+use velocityx::mpmc::Queue;
+
+let queue: Queue<i32> = Queue::new(1024);
+queue.push(value).unwrap();
+let item = queue.pop();
+```
+
+- MPMC queues and concurrent hashmaps
+- Zero-lock atomic operations
+- Thread-safe by design
+- Comprehensive benchmarks
+
+Available on [crates.io](https://crates.io/crates/velocityx)
+
+</td>
+<td width="50%" valign="top">
+
+#### Other Work
+
+**Arena-b** - High-performance arena allocator for Zig
+
+**ZeroProto** - Zero-copy protocol buffer implementation
+
+**AeroSocket** - Lightweight WebSocket library
 
 </td>
 </tr>
@@ -107,6 +142,9 @@ DiscordClient *client = [[DiscordClient alloc]
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=apple&logoColor=white)
 ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
@@ -116,14 +154,13 @@ DiscordClient *client = [[DiscordClient alloc]
 
 ---
 
-## Current Focus
+## Current Work
 
-- Building and maintaining high-performance Discord API wrappers across multiple languages
-- Expanding feature coverage and API compatibility
-- Improving documentation and developer experience
-- Growing communities around SwiftDisc, Zignal, and Caelum
-- Performance optimization and systems programming best practices
-- Keeping pace with Discord API updates and new features
+- Expanding Discord API coverage in SwiftDisc, Caelum, and Zignal
+- Performance optimization for VelocityX
+- Improving documentation across all projects
+- Maintaining compatibility with Discord API updates
+- Research into lock-free algorithms and concurrent data structures
 
 ---
 
@@ -140,20 +177,24 @@ DiscordClient *client = [[DiscordClient alloc]
 
 ---
 
-## Get Involved
+## Contributing
 
-Open to collaboration, feedback, and contributions on any of my projects:
+Open to collaboration and contributions on any projects. Feel free to:
 
-- ⭐ Star projects you find useful
-- 🐛 Report bugs or request features via issues
-- 🔧 Submit pull requests
-- 💬 Join the community on Discord
-
----
+- Star repositories you find useful
+- Report bugs or request features
+- Submit pull requests
+- Join the Discord community
 
 <div align="center">
 
 [![Join Discord](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
+
+</div>
+
+---
+
+<div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=M1tsumi&color=5865F2&style=flat-square&label=Profile+Views)
 
