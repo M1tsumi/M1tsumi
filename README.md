@@ -7,39 +7,49 @@ I write Discord libraries in languages where they don't usually exist. Most of m
 
 ---
 
-## What I'm Working On
+## Projects
 
 ### Discord Libraries
 
-**[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** — Discord API wrapper for Swift. Full v10 support, async/await, works on iOS/macOS/Windows. No external dependencies. [Docs](https://quefep.uk)
+| Project | Description |
+|---------|-------------|
+| **[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** | Discord API wrapper for Swift—v10 support, async/await, cross-platform. Zero dependencies. [[Docs](https://quefep.uk)] |
+| **[Caelum](https://github.com/M1tsumi/Caelum)** | Same idea but for Objective-C. Works well alongside Swift. CocoaPods & SPM. |
+| **[Zignal](https://github.com/M1tsumi/Zignal)** | Discord library for Zig. 175 endpoints, 56 gateway events, voice support. [[Docs](https://docs.zignal.dev)] |
 
-**[Caelum](https://github.com/M1tsumi/Caelum)** — Same idea but for Objective-C. Plays nice with Swift if you need to mix them. Available via CocoaPods or SPM.
+### Systems & Utilities
 
-**[Zignal](https://github.com/M1tsumi/Zignal)** — Discord library for Zig. Covers 175 endpoints, 56 gateway events, and voice. Starts up way faster than the Python alternatives and uses a fraction of the memory. [Docs](https://docs.zignal.dev)
-
-### Other Stuff
-
-**[VelocityX](https://crates.io/crates/velocityx)** — Lock-free data structures for Rust. MPMC queues, concurrent hashmaps, that kind of thing.
-
-I've also built a few smaller things: an arena allocator for Rust (Arena-b), a zero-copy protobuf implementation (ZeroProto), and a WebSocket library (AeroSocket).
-
----
-
-## Languages & Tools
-
-Mostly Swift, Objective-C, Zig, and Rust. Some TypeScript and Python when needed. I spend a lot of time in Xcode and on Linux.
+| Project | Description |
+|---------|-------------|
+| **[VelocityX](https://crates.io/crates/velocityx)** | Lock-free data structures for Rust—MPMC queues, concurrent hashmaps. |
+| **Arena-b** | Arena allocator for Rust. |
+| **ZeroProto** | Zero-copy protobuf implementation. |
+| **AeroSocket** | Lightweight WebSocket library. |
 
 ---
 
-## Currently
+## Tech
 
-Keeping the Discord libraries up to date with API changes, squeezing more performance out of VelocityX, and writing docs (the boring but necessary part).
+<p>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Objective--C-438EFF?style=flat-square&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+</p>
 
 ---
 
-## Get in Touch
+## What I'm Up To
 
-If you want to contribute, report a bug, or just chat—hop in the Discord.
+Keeping the Discord libraries current with API changes, improving VelocityX performance, and writing documentation.
+
+---
+
+## Contact
+
+Questions, bugs, or just want to chat—join the Discord.
 
 [![Join Discord](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
 
