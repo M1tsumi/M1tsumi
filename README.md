@@ -1,201 +1,53 @@
 # Hey, I'm M1tsumi
 
-<div align="center">
+I write Discord libraries in languages where they don't usually exist. Most of my time goes into Swift, Objective-C, Zig, and Rust—basically anything that compiles to something fast.
 
-[![Discord](https://img.shields.io/badge/Discord-quefep-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
-[![GitHub followers](https://img.shields.io/github/followers/M1tsumi?style=for-the-badge&logo=github)](https://github.com/M1tsumi)
-[![Website](https://img.shields.io/badge/Docs-quefep.uk-blue?style=for-the-badge)](https://quefep.uk)
-
-</div>
-
-## About Me
-
-Systems programmer specializing in high-performance developer tooling across Swift, Objective-C, Zig, and Rust. I build production-ready libraries focused on type safety, performance, and good developer experience.
-
-```swift
-let developer = Developer(
-    username: "M1tsumi",
-    discord: "quefep",
-    languages: ["Swift", "Objective-C", "Zig", "Rust"],
-    focus: ["Discord APIs", "Concurrency", "Systems Programming"]
-)
-```
+[![Discord](https://img.shields.io/badge/quefep-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
+[![Docs](https://img.shields.io/badge/quefep.uk-blue?style=flat-square)](https://quefep.uk)
 
 ---
 
-## Projects
+## What I'm Working On
 
-### Discord API Wrappers
+### Discord Libraries
 
-<table>
-<tr>
-<td width="33%" valign="top">
+**[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** — Discord API wrapper for Swift. Full v10 support, async/await, works on iOS/macOS/Windows. No external dependencies. [Docs](https://quefep.uk)
 
-#### SwiftDisc
-Modern Discord API wrapper for Swift
+**[Caelum](https://github.com/M1tsumi/Caelum)** — Same idea but for Objective-C. Plays nice with Swift if you need to mix them. Available via CocoaPods or SPM.
 
-```swift
-let client = DiscordClient(token: token)
-try await client.connect()
-```
+**[Zignal](https://github.com/M1tsumi/Zignal)** — Discord library for Zig. Covers 175 endpoints, 56 gateway events, and voice. Starts up way faster than the Python alternatives and uses a fraction of the memory. [Docs](https://docs.zignal.dev)
 
-- Discord API v10 support
-- Native async/await
-- Type-safe API
-- Cross-platform (iOS, macOS, tvOS, watchOS, Windows)
-- Automatic rate limiting
-- Zero dependencies
+### Other Stuff
 
-[Repository](https://github.com/M1tsumi/SwiftDisc) | [Documentation](https://quefep.uk)
+**[VelocityX](https://crates.io/crates/velocityx)** — Lock-free data structures for Rust. MPMC queues, concurrent hashmaps, that kind of thing.
 
-</td>
-<td width="33%" valign="top">
-
-#### Caelum
-Discord API wrapper for Objective-C
-
-```objc
-DiscordClient *client = 
-    [[DiscordClient alloc] initWithToken:token];
-[client connect];
-```
-
-- Complete Discord API coverage
-- Swift interoperability
-- Memory-safe implementation
-- CocoaPods & SPM support
-- Battle-tested in production
-
-[Repository](https://github.com/M1tsumi/Caelum)
-
-</td>
-<td width="33%" valign="top">
-
-#### Zignal
-High-performance Discord API for Zig
-
-```zig
-var client = try zignal.Client.init(
-    allocator, .{ .token = token }
-);
-try client.connect();
-```
-
-- Discord API v10 (175 endpoints)
-- Gateway support (56 events)
-- Voice channels with audio
-- 20x faster startup than Python
-- 4x lower memory usage
-- Zero dependencies
-
-[Repository](https://github.com/M1tsumi/Zignal) | [Documentation](https://docs.zignal.dev)
-
-</td>
-</tr>
-</table>
-
-### Systems Programming
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### VelocityX
-Lock-free concurrent data structures for Rust
-
-```rust
-use velocityx::mpmc::Queue;
-
-let queue: Queue<i32> = Queue::new(1024);
-queue.push(value).unwrap();
-let item = queue.pop();
-```
-
-- MPMC queues and concurrent hashmaps
-- Zero-lock atomic operations
-- Thread-safe by design
-- Comprehensive benchmarks
-
-Available on [crates.io](https://crates.io/crates/velocityx)
-
-</td>
-<td width="50%" valign="top">
-
-#### Other Work
-
-**Arena-b** - High-performance arena allocator for Zig
-
-**ZeroProto** - Zero-copy protocol buffer implementation
-
-**AeroSocket** - Lightweight WebSocket library
-
-</td>
-</tr>
-</table>
+I've also built a few smaller things: an arena allocator for Rust (Arena-b), a zero-copy protobuf implementation (ZeroProto), and a WebSocket library (AeroSocket).
 
 ---
 
-## Tech Stack
+## Languages & Tools
 
-<div align="center">
-
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Objective-C](https://img.shields.io/badge/Objective--C-438EFF?style=for-the-badge&logo=apple&logoColor=white)
-![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Discord API](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
+Mostly Swift, Objective-C, Zig, and Rust. Some TypeScript and Python when needed. I spend a lot of time in Xcode and on Linux.
 
 ---
 
-## Current Work
+## Currently
 
-- Expanding Discord API coverage in SwiftDisc, Caelum, and Zignal
-- Performance optimization for VelocityX
-- Improving documentation across all projects
-- Maintaining compatibility with Discord API updates
-- Research into lock-free algorithms and concurrent data structures
+Keeping the Discord libraries up to date with API changes, squeezing more performance out of VelocityX, and writing docs (the boring but necessary part).
 
 ---
 
-## Stats
+## Get in Touch
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=M1tsumi&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## Contributing
-
-Open to collaboration and contributions on any projects. Feel free to:
-
-- Star repositories you find useful
-- Report bugs or request features
-- Submit pull requests
-- Join the Discord community
-
-<div align="center">
+If you want to contribute, report a bug, or just chat—hop in the Discord.
 
 [![Join Discord](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
 
-</div>
-
 ---
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=M1tsumi&color=5865F2&style=flat-square&label=Profile+Views)
+<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="150"/>
 
 </div>
