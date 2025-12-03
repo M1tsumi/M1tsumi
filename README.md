@@ -13,9 +13,9 @@ I write Discord libraries in languages where they don't usually exist. Most of m
 
 | Project | Description |
 |---------|-------------|
-| **[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** | Discord API wrapper for Swift—v10 support, async/await, cross-platform. Zero dependencies. [[Docs](https://quefep.uk)] |
+| **[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** | Discord API wrapper for Swift—v10 support, async/await, cross-platform. Zero dependencies.  |
 | **[Caelum](https://github.com/M1tsumi/Caelum)** | Same idea but for Objective-C. Works well alongside Swift. CocoaPods & SPM. |
-| **[Zignal](https://github.com/M1tsumi/Zignal)** | Discord library for Zig. 175 endpoints, 56 gateway events, voice support. [[Docs](https://docs.zignal.dev)] |
+| **[Zignal](https://github.com/M1tsumi/Zignal)** | Discord library for Zig. 175 endpoints, 56 gateway events, voice support.  |
 
 ### Systems & Utilities
 
