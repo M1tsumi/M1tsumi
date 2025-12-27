@@ -1,13 +1,9 @@
-<div align="center">
-
 # Hey there! 👋 I'm M1tsumi
 
-I build Discord libraries in languages you probably wouldn't expect. Most of my time is spent wrestling with Swift, Objective-C, Zig, and Rust—basically anything that compiles to something fast and doesn't make me want to throw my computer out the window.
+I build Discord libraries in languages you probably wouldn't expect. Most of my time is spent wrestling with Swift, Objective-C, Zig, and Rust-basically anything that compiles to something fast and doesn't make me want to throw my computer out the window.
 
 [![Discord](https://img.shields.io/badge/Discord-FFB6C1?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
 [![Docs](https://img.shields.io/badge/quefep.uk-FFD1DC?style=for-the-badge)](https://quefep.uk)
-
-</div>
 
 ---
 
@@ -75,35 +71,4 @@ Right now I'm mostly:
 
 Got questions? Found a bug? Just want to talk about systems programming? Come hang out in the Discord.
 
-<div align="center">
-
 [![Join Discord](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
-
-</div>
-
----
-
-## Stats & Stuff 📊
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=FFF5F7&title_color=E91E63&icon_color=E91E63&text_color=666666&border_color=FFD1DC" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=radical&hide_border=true&langs_count=6&bg_color=FFF5F7&title_color=E91E63&icon_color=E91E63&text_color=666666&border_color=FFD1DC" height="150"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=M1tsumi&theme=radical&hide_border=true&background=FFF5F7&stroke=E91E63&ring=E91E63&fire=FFB6C1&currStreakLabel=E91E63"/>
-
-</div>
-
----
-
-<div align="center">
-
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=M1tsumi.M1tsumi&style=flat-square&color=FFB6C1)
-
-*Built with pastel colors and too much caffeine ☕*
-
-</div>
