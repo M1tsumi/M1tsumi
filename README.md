@@ -1,63 +1,109 @@
-# Hey, I'm M1tsumi
+<div align="center">
 
-I write Discord libraries in languages where they don't usually exist. Most of my time goes into Swift, Objective-C, Zig, and Rust—basically anything that compiles to something fast.
+# Hey there! 👋 I'm M1tsumi
 
-[![Discord](https://img.shields.io/badge/quefep-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
-[![Docs](https://img.shields.io/badge/quefep.uk-blue?style=flat-square)](https://quefep.uk)
+I build Discord libraries in languages you probably wouldn't expect. Most of my time is spent wrestling with Swift, Objective-C, Zig, and Rust—basically anything that compiles to something fast and doesn't make me want to throw my computer out the window.
+
+[![Discord](https://img.shields.io/badge/Discord-FFB6C1?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/6nS2KqxQtj)
+[![Docs](https://img.shields.io/badge/quefep.uk-FFD1DC?style=for-the-badge)](https://quefep.uk)
+
+</div>
 
 ---
 
-## Projects
+## Stuff I'm Proud Of 🚀
 
-### Discord Libraries
+These are the projects I pour most of my energy into:
 
-| Project | Description |
+| Project | What it does | Why I built it |
+|---------|-------------|----------------|
+| **[Arena-b](https://github.com/M1tsumi/Arena-b)** | 🏛️ Super-fast arena allocator for Rust with basically zero overhead | Got tired of malloc being slow, so I built something faster |
+| **[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** | 💿 Discord API wrapper for Swift—v10 support, async/await, cross-platform. Zero dependencies. | Swift needed a proper Discord library that wasn't terrible |
+| **[Jod](https://github.com/M1tsumi/Jod)** | 🎯 Job management system that actually works | Was frustrated with existing job schedulers, so I wrote my own |
+| **[MobScaling](https://github.com/M1tsumi/MobScaling)** | 📊 Smart scaling for mobile apps | Needed something better than just throwing more servers at problems |
+
+### Other Discord Stuff 💬
+
+| Project | What it does |
 |---------|-------------|
-| **[SwiftDisc](https://github.com/M1tsumi/SwiftDisc)** | Discord API wrapper for Swift—v10 support, async/await, cross-platform. Zero dependencies.  |
-| **[Caelum](https://github.com/M1tsumi/Caelum)** | Same idea but for Objective-C. Works well alongside Swift. CocoaPods & SPM. |
-| **[Zignal](https://github.com/M1tsumi/Zignal)** | Discord library for Zig. 175 endpoints, 56 gateway events, voice support.  |
+| **[Caelum](https://github.com/M1tsumi/Caelum)** | Objective-C version of a Discord library. Plays nice with Swift. |
+| **[Zignal](https://github.com/M1tsumi/Zignal)** | Discord library for Zig. 175 endpoints, 56 gateway events, voice support. |
 
-### Systems & Utilities
+### Systems & Tools ⚙️
 
-| Project | Description |
+| Project | What it does |
 |---------|-------------|
 | **[VelocityX](https://crates.io/crates/velocityx)** | Lock-free data structures for Rust—MPMC queues, concurrent hashmaps. |
-| **Arena-b** | Arena allocator for Rust. |
-| **ZeroProto** | Zero-copy protobuf implementation. |
-| **AeroSocket** | Lightweight WebSocket library. |
+| **[ZeroProto](https://github.com/M1tsumi/ZeroProto)** | Zero-copy protobuf implementation. |
+| **[AeroSocket](https://github.com/M1tsumi/AeroSocket)** | Lightweight WebSocket library. |
 
 ---
 
-## Tech
+## What I Use 🛠️
+
+<div align="center">
 
 <p>
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Objective--C-438EFF?style=flat-square&logo=apple&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swift-FFB6C1?style=for-the-badge&logo=swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Objective--C-FFD1DC?style=for-the-badge&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rust-FFB6C1?style=for-the-badge&logo=rust&logoColor=white"/>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-FFD1DC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-FFB6C1?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-FFD1DC?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FFB6C1?style=for-the-badge&logo=linux&logoColor=white"/>
+</p>
+
+</div>
+
 ---
 
-## What I'm Up To
+## What I'm Working On 🌱
 
-Keeping the Discord libraries current with API changes, improving VelocityX performance, and writing documentation.
+Right now I'm mostly:
+- 🚀 Keeping Discord libraries from breaking when Discord decides to change everything
+- 🔧 Making VelocityX even faster (because fast is never fast enough)
+- 📚 Writing docs so people can actually use this stuff
+- ✨ Adding cool new features to **Arena-b**, **SwiftDisc**, **Jod**, and **MobScaling**
 
 ---
 
-## Contact
+## Let's Chat 📬
 
-Questions, bugs, or just want to chat—join the Discord.
+Got questions? Found a bug? Just want to talk about systems programming? Come hang out in the Discord.
+
+<div align="center">
 
 [![Join Discord](https://invidget.switchblade.xyz/6nS2KqxQtj)](https://discord.gg/6nS2KqxQtj)
+
+</div>
+
+---
+
+## Stats & Stuff 📊
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=FFF5F7&title_color=E91E63&icon_color=E91E63&text_color=666666&border_color=FFD1DC" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=radical&hide_border=true&langs_count=6&bg_color=FFF5F7&title_color=E91E63&icon_color=E91E63&text_color=666666&border_color=FFD1DC" height="150"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=M1tsumi&theme=radical&hide_border=true&background=FFF5F7&stroke=E91E63&ring=E91E63&fire=FFB6C1&currStreakLabel=E91E63"/>
+
+</div>
 
 ---
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=M1tsumi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="150"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M1tsumi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="150"/>
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=M1tsumi.M1tsumi&style=flat-square&color=FFB6C1)
+
+*Built with pastel colors and too much caffeine ☕*
 
 </div>
